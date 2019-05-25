@@ -8,6 +8,8 @@ You can read up on the same on the articles published on medium :
 
 [JPMS - II](https://medium.com/@jubin.kuriakose/java-module-system-part-ii-f051f2110a9e)
 
+The modules are created so that its IDE friendly (IntelliJ). It doesn't follow the standard organization of modules as described in various documentations
+
 ## Run
 To run the application first mvn clean package
 
