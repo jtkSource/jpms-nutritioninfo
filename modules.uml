@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JIGSAW</ID>
+  <OriginalElement>com.jtk.validate.number</OriginalElement>
+  <nodes>
+    <node x="97.99999999999994" y="77.0">com.jtk.nutrition.lib</node>
+    <node x="377.88862179487177" y="154.0">com.jtk.service</node>
+    <node x="810.4511217948718" y="77.0">javafx.controls</node>
+    <node x="501.99999999999994" y="77.0">com.jtk.validate.string</node>
+    <node x="292.99999999999994" y="77.0">com.jtk.validate.number</node>
+    <node x="632.4391025641025" y="0.0">com.jtk.nutrition.ui</node>
+    <node x="641.1177884615385" y="385.0">java.prefs</node>
+    <node x="43.75" y="154.0">com.jtk.nutrition.loader</node>
+    <node x="114.22516025641016" y="231.0">java.logging</node>
+    <node x="737.8261217948718" y="154.0">javafx.graphics</node>
+    <node x="0.0" y="0.0">com.jtk.nutrition.cli</node>
+    <node x="816.5264423076923" y="308.0">java.desktop</node>
+    <node x="715.125" y="462.0">java.xml</node>
+    <node x="841.2099358974358" y="385.0">java.datatransfer</node>
+    <node x="697.5264423076923" y="231.0">jdk.unsupported</node>
+    <node x="851.5264423076923" y="231.0">javafx.base</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.jtk.service" target="com.jtk.validate.number">
+      <point x="0.0" y="-13.5" />
+      <point x="444.38862179487177" y="124.0" />
+      <point x="387.49999999999994" y="124.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="java.xml" target="javafx.graphics">
+      <point x="-28.0" y="-13.5" />
+      <point x="729.125" y="442.0" />
+      <point x="630.6177884615385" y="442.0" />
+      <point x="630.6177884615385" y="211.0" />
+      <point x="754.4511217948718" y="211.0" />
+      <point x="-49.875" y="13.5" />
+    </edge>
+    <edge source="jdk.unsupported" target="javafx.graphics">
+      <point x="0.0" y="-13.5" />
+      <point x="764.0264423076923" y="211.0" />
+      <point x="787.7011217948718" y="211.0" />
+      <point x="-16.625" y="13.5" />
+    </edge>
+    <edge source="com.jtk.nutrition.lib" target="com.jtk.nutrition.ui">
+      <point x="43.75" y="-13.5" />
+      <point x="229.24999999999994" y="52.0" />
+      <point x="660.4391025641025" y="52.0" />
+      <point x="-56.0" y="13.5" />
+    </edge>
+    <edge source="java.logging" target="com.jtk.nutrition.loader">
+      <point x="0.0" y="-13.5" />
+      <point x="170.22516025641016" y="211.0" />
+      <point x="141.75" y="211.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="java.desktop" target="javafx.base">
+      <point x="28.0" y="-13.5" />
+      <point x="900.5264423076923" y="283.0" />
+      <point x="904.0264423076923" y="283.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.jtk.nutrition.lib" target="com.jtk.nutrition.cli">
+      <point x="-43.75" y="-13.5" />
+      <point x="141.74999999999994" y="52.0" />
+      <point x="131.25" y="52.0" />
+      <point x="43.75" y="13.5" />
+    </edge>
+    <edge source="java.logging" target="com.jtk.nutrition.ui">
+      <point x="37.33333333333337" y="-13.5" />
+      <point x="207.55849358974353" y="201.0" />
+      <point x="701.4999999999999" y="201.0" />
+      <point x="701.4999999999999" y="52.0" />
+      <point x="716.4391025641025" y="52.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="javafx.controls" target="com.jtk.nutrition.ui">
+      <point x="0.0" y="-13.5" />
+      <point x="876.9511217948718" y="52.0" />
+      <point x="772.4391025641025" y="52.0" />
+      <point x="56.0" y="13.5" />
+    </edge>
+    <edge source="com.jtk.nutrition.loader" target="com.jtk.nutrition.lib">
+      <point x="0.0" y="-13.5" />
+      <point x="-43.75" y="13.5" />
+    </edge>
+    <edge source="java.xml" target="java.prefs">
+      <point x="0.0" y="-13.5" />
+      <point x="757.125" y="432.0" />
+      <point x="690.1177884615385" y="432.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="java.logging" target="com.jtk.nutrition.cli">
+      <point x="-37.33333333333337" y="-13.5" />
+      <point x="132.8918269230768" y="211.0" />
+      <point x="33.25" y="211.0" />
+      <point x="33.25" y="52.0" />
+      <point x="43.75" y="52.0" />
+      <point x="-43.75" y="13.5" />
+    </edge>
+    <edge source="java.xml" target="java.desktop">
+      <point x="28.0" y="-13.5" />
+      <point x="785.125" y="442.0" />
+      <point x="998.7099358974358" y="442.0" />
+      <point x="998.7099358974358" y="355.0" />
+      <point x="909.8597756410256" y="355.0" />
+      <point x="37.33333333333337" y="13.5" />
+    </edge>
+    <edge source="java.prefs" target="java.desktop">
+      <point x="0.0" y="-13.5" />
+      <point x="690.1177884615385" y="365.0" />
+      <point x="835.1931089743589" y="365.0" />
+      <point x="-37.33333333333337" y="13.5" />
+    </edge>
+    <edge source="java.desktop" target="javafx.graphics">
+      <point x="-28.0" y="-13.5" />
+      <point x="844.5264423076923" y="283.0" />
+      <point x="841.0264423076923" y="283.0" />
+      <point x="841.0264423076923" y="211.0" />
+      <point x="820.9511217948718" y="211.0" />
+      <point x="16.625" y="13.5" />
+    </edge>
+    <edge source="javafx.graphics" target="javafx.controls">
+      <point x="0.0" y="-13.5" />
+      <point x="804.3261217948718" y="134.0" />
+      <point x="843.7011217948718" y="134.0" />
+      <point x="-33.25" y="13.5" />
+    </edge>
+    <edge source="java.datatransfer" target="java.desktop">
+      <point x="0.0" y="-13.5" />
+      <point x="914.7099358974358" y="365.0" />
+      <point x="872.5264423076923" y="365.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="javafx.base" target="javafx.controls">
+      <point x="26.25" y="-13.5" />
+      <point x="930.2764423076923" y="134.0" />
+      <point x="910.2011217948718" y="134.0" />
+      <point x="33.25" y="13.5" />
+    </edge>
+    <edge source="javafx.base" target="javafx.graphics">
+      <point x="-26.25" y="-13.5" />
+      <point x="877.7764423076923" y="211.0" />
+      <point x="854.2011217948718" y="211.0" />
+      <point x="49.875" y="13.5" />
+    </edge>
+    <edge source="com.jtk.service" target="com.jtk.validate.string">
+      <point x="44.333333333333314" y="-13.5" />
+      <point x="488.7219551282051" y="134.0" />
+      <point x="596.4999999999999" y="134.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.jtk.service" target="com.jtk.nutrition.lib">
+      <point x="-44.33333333333337" y="-13.5" />
+      <point x="400.0552884615384" y="134.0" />
+      <point x="229.24999999999994" y="134.0" />
+      <point x="43.75" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.888015717092338" x="499.5" y="244.5" />
+  <SelectedNodes>
+    <node>com.jtk.validate.number</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+</Diagram>
+
