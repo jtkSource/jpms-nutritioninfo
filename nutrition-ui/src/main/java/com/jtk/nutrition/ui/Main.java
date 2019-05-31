@@ -33,7 +33,9 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        NutritionLoader loader = new NutritionLoader("C:\\Users\\jubin\\git\\nutritioninfo\\nutrition-ui\\src\\main\\resources\\nutrition.yaml");
+        String fileName = System.getProperty("nutrition.file.path");
+        logger.info("file name "   + fileName);
+        NutritionLoader loader = new NutritionLoader(fileName);
 
         List<FoodProduct> foodProducts = loader.getAllFoodProductDetails();
         primaryStage.setTitle("Food Viewer");

@@ -14,7 +14,9 @@ public class Main {
 
     public static void main(String[] args) throws NutritionLoaderException {
         logger.info("Nutrition viewer: Started");
-        NutritionLoader loader = new NutritionLoader("C:\\Users\\jubin\\git\\nutritioninfo\\nutrition-ui\\src\\main\\resources\\nutrition.yaml");
+        String fileName = System.getProperty("nutrition.file.path");
+        logger.info("file name "   + fileName);
+        NutritionLoader loader = new NutritionLoader(fileName);
         List<FoodProduct> productDetails = loader.getAllFoodProductDetails();
         logger.info(productDetails.toString());
         logger.info("Address book viewer application: Completed");
